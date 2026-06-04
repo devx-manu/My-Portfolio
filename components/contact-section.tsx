@@ -32,42 +32,7 @@ export function ContactSection() {
             />
 
             <div className="relative bg-slate-900 rounded-2xl p-8 border border-white/10">
-              <motion.h3
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ delay: 0.2 }}
-                className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent"
-              >
-                🚀 Dev.kannadiga
-              </motion.h3>
-
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ delay: 0.3 }}
-                className="text-gray-300 text-lg leading-relaxed mb-6"
-              >
-                Building a Kannada-first tech community through
-                developer content, coding guidance, career tips,
-                and real-world tech knowledge.
-              </motion.p>
-
-              {/* YouTube Button */}
-              <motion.a
-                href="https://www.youtube.com/@dev.kannadiga"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{
-                  scale: 1.05,
-                  y: -2,
-                }}
-                whileTap={{ scale: 0.98 }}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-red-600 hover:bg-red-700 text-white font-semibold transition"
-              >
-                <Youtube className="w-5 h-5" />
-                Explore Dev.kannadiga
-              </motion.a>
-
+             
               {/* Floating Particles */}
               <div className="absolute inset-0 pointer-events-none">
                 {Array.from({ length: 3 }).map(
@@ -171,26 +136,6 @@ export function ContactSection() {
                 </h4>
                 <p className="text-sm text-gray-400">
                   Connect with me
-                </p>
-              </div>
-            </motion.a>
-
-            {/* YouTube */}
-            <motion.a
-              href="https://www.youtube.com/@dev.kannadiga"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ y: -5, scale: 1.03 }}
-              className="group relative"
-            >
-              <div className="absolute -inset-0.5 rounded-xl blur bg-gradient-to-r from-red-500 to-orange-500 opacity-20 group-hover:opacity-50 transition" />
-              <div className="relative bg-slate-900 rounded-xl p-6 border border-white/10">
-                <Youtube className="w-8 h-8 text-red-400 mx-auto mb-3" />
-                <h4 className="font-semibold text-white">
-                  YouTube
-                </h4>
-                <p className="text-sm text-gray-400">
-                  Dev.kannadiga
                 </p>
               </div>
             </motion.a>
