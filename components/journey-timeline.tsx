@@ -28,12 +28,6 @@ const milestones = [
     year:'2026',
     color: 'from-blue-500 to-green-500',
   },
-  {
-    title: 'Building Dev.kannadiga',
-    description: 'Creating a platform for Kannada tech community and resources',
-    year: '2026',
-    color: 'from-orange-500 to-red-500',
-  },
 ]
 
 function TimelineStation({
